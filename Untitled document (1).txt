@@ -7,9 +7,9 @@ def addtask(task):
     print(f"Task '{task}' added!")
 # Function to list all tasks
 def alltasks():
-    if task_list:
+    if list1:
         print("To-Do List:")
-        for i, task in enumerate(task_list, 1):
+        for i, task in enumerate(list1, 1):
             print(f"{i}. {task}")
     else:
         print("Your To-Do List is empty.")
