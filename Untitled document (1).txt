@@ -5,11 +5,6 @@
 def addtask(task):
     list1.append(task)
     print(f"Task '{task}' added!")
-o List:")
-        for i, task in enumerate(list1, 1):
-            print(f"{i}. {task}")
-    else:
-        print("empty.")
 # Function to list all tasks
 def alltasks():
     if task_list:
